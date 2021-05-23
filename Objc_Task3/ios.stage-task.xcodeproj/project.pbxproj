@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		7AF396612656A588003A569D /* LevelOrderTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AF396602656A588003A569D /* LevelOrderTests.m */; };
+		7C7E7901265B17F2009C6A15 /* Tree.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C7E7900265B17F2009C6A15 /* Tree.m */; };
 		820FABB2265679FC008CFD09 /* DateTasks.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 820FABB1265679FC008CFD09 /* DateTasks.pdf */; };
 		820FABBD26567D60008CFD09 /* NSDate+CustomDate.m in Sources */ = {isa = PBXBuildFile; fileRef = 820FABBC26567D60008CFD09 /* NSDate+CustomDate.m */; };
 		8293ECA826346C7100CEE768 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8293ECA726346C7100CEE768 /* AppDelegate.m */; };
@@ -38,6 +39,8 @@
 
 /* Begin PBXFileReference section */
 		7AF396602656A588003A569D /* LevelOrderTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LevelOrderTests.m; sourceTree = "<group>"; };
+		7C7E7900265B17F2009C6A15 /* Tree.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tree.m; sourceTree = "<group>"; };
+		7C7E7902265B1803009C6A15 /* Tree.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Tree.h; sourceTree = "<group>"; };
 		820FABB1265679FC008CFD09 /* DateTasks.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = DateTasks.pdf; sourceTree = "<group>"; };
 		820FABBB26567D60008CFD09 /* NSDate+CustomDate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+CustomDate.h"; sourceTree = "<group>"; };
 		820FABBC26567D60008CFD09 /* NSDate+CustomDate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+CustomDate.m"; sourceTree = "<group>"; };
@@ -85,6 +88,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7C7E78FF265B17BB009C6A15 /* Tree */ = {
+			isa = PBXGroup;
+			children = (
+				7C7E7900265B17F2009C6A15 /* Tree.m */,
+				7C7E7902265B1803009C6A15 /* Tree.h */,
+			);
+			path = Tree;
+			sourceTree = "<group>";
+		};
 		820FABC026567EFA008CFD09 /* Category */ = {
 			isa = PBXGroup;
 			children = (
@@ -128,6 +140,7 @@
 		8275DDD2264C16A100838828 /* Exercise-4 */ = {
 			isa = PBXGroup;
 			children = (
+				7C7E78FF265B17BB009C6A15 /* Tree */,
 				82ADF96426558D6400D81DB7 /* LevelOrderTraversal.md */,
 				82ADF96526558D6400D81DB7 /* LevelOrderTraversal.h */,
 				82ADF95F26558D6400D81DB7 /* LevelOrderTraversal.m */,
@@ -294,6 +307,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				82ADF96F26558D6A00D81DB7 /* LexicographicallyMinimal.m in Sources */,
+				7C7E7901265B17F2009C6A15 /* Tree.m in Sources */,
 				8293ECA826346C7100CEE768 /* AppDelegate.m in Sources */,
 				8293ECB926346C7500CEE768 /* main.m in Sources */,
 				82ADF96626558D6400D81DB7 /* LevelOrderTraversal.m in Sources */,
